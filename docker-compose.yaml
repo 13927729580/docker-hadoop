@@ -20,7 +20,7 @@ services:
       image: ${BASE_OS} 
       hostname: namenode 
       volumes:
-         - ${HDP_DIST}:/opt/hadoop
+         - ${HADOOP_DIST}:/opt/hadoop
       ports:
          - 50070:50070
          - 9870:9870
